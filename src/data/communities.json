@@ -1,0 +1,93 @@
+[
+  {
+    "id": "mountain",
+    "name": "יהודי ההרים",
+    "region": "מזרח הקווקז: אזרבייג'ן ודאגסטן",
+    "color": "#A3243B",
+    "facts": [
+      "יהודי ההרים קוראים לעצמם ״ג'והורו״, ושפתם היא ג'והורי, שפה קרובה לפרסית."
+    ],
+    "confusableWith": ["bukhara"],
+    "commonSurnames": ["agarunov", "avshalumov", "nisanov", "mordechayev"],
+    "question": "את מי אתה מכיר מהקהילה הזו?",
+    "verified": false
+  },
+  {
+    "id": "bukhara",
+    "name": "יהודי בוכרה",
+    "region": "מרכז אסיה: בעיקר אוזבקיסטן וטג'יקיסטן",
+    "color": "#6B3FA0",
+    "facts": [
+      "יהודי בוכרה דיברו בוכרית, שפה יהודית קרובה לטג'יקית ולפרסית."
+    ],
+    "confusableWith": ["mountain"],
+    "commonSurnames": ["kalantarov"],
+    "question": "את מי אתה מכיר מהקהילה הזו?",
+    "verified": false
+  },
+  {
+    "id": "georgia",
+    "name": "יהודי גאורגיה",
+    "region": "גאורגיה",
+    "color": "#1F4E79",
+    "facts": [
+      "שמות רבים של יהודי גאורגיה מסתיימים ב״שווילי״, שפירושו בגאורגית ״בן של״."
+    ],
+    "confusableWith": [],
+    "commonSurnames": ["mikhaelashvili", "davitashvili"],
+    "question": "את מי אתה מכיר מהקהילה הזו?",
+    "verified": false
+  },
+  {
+    "id": "ashkenazi",
+    "name": "אשכנזים",
+    "region": "מרכז ומזרח אירופה",
+    "color": "#5A4632",
+    "facts": [
+      "יהודים אשכנזים רבים קיבלו שמות משפחה קבועים רק במאות ה-18 וה-19, לפי חוקי המדינות שבהן חיו."
+    ],
+    "confusableWith": [],
+    "commonSurnames": ["schneider", "becker", "kaplan", "goldberg"],
+    "question": "את מי אתה מכיר מהקהילה הזו?",
+    "verified": false
+  },
+  {
+    "id": "morocco",
+    "name": "יהודי מרוקו",
+    "region": "צפון אפריקה",
+    "color": "#8A4B08",
+    "facts": [
+      "יהודי מרוקו דיברו ערבית-יהודית, ובחלק מהקהילות גם ספרדית-יהודית."
+    ],
+    "confusableWith": [],
+    "commonSurnames": ["elbaz", "abutbul"],
+    "question": "את מי אתה מכיר מהקהילה הזו?",
+    "verified": false
+  },
+  {
+    "id": "iraq",
+    "name": "יהודי עיראק",
+    "region": "בבל, היא עיראק של היום",
+    "color": "#2E6B4F",
+    "facts": [
+      "קהילת יהודי עיראק נחשבת לאחת הקהילות העתיקות בגולה, עוד מימי גלות בבל."
+    ],
+    "confusableWith": [],
+    "commonSurnames": ["sasson", "dalal"],
+    "question": "את מי אתה מכיר מהקהילה הזו?",
+    "verified": false
+  },
+  {
+    "id": "yemen",
+    "name": "יהודי תימן",
+    "region": "דרום חצי האי ערב",
+    "color": "#3D4F7A",
+    "facts": [
+      "ליהודי תימן מסורת מיוחדת של קריאה והגייה של העברית."
+    ],
+    "confusableWith": [],
+    "commonSurnames": ["sharabi", "kafeh"],
+    "question": "את מי אתה מכיר מהקהילה הזו?",
+    "verified": false
+  }
+]

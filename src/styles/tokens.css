@@ -1,0 +1,50 @@
+:root {
+  /* Colors */
+  --c-bg: #ffffff;
+  --c-bg-2: #f3f5f9;
+  --c-ink: #1a1f36;
+  --c-ink-soft: #3f4560;
+  --c-rimon: #a3243b;
+  --c-rimon-dark: #821b2f;
+  --c-blue: #1f4e79;
+  --c-blue-dark: #163a5b;
+  --c-gold: #c9952b; /* decoration only, never text */
+  --c-green: #2e7d4f; /* icons only */
+  --c-line: #c9cedb;
+  --c-focus: #1f4e79;
+
+  /* Type: 1rem = body size. Scale 1 / 1.25 / 1.5 set from settings. */
+  --text-scale: 1;
+  --font-body: 'Assistant', Arial, sans-serif;
+  --font-head: 'Frank Ruhl Libre', Arial, sans-serif;
+  --fs-small: 0.9rem; /* ~20px */
+  --fs-body: 1rem; /* 22px */
+  --fs-btn: 1.0909rem; /* 24px */
+  --fs-title: 1.4545rem; /* 32px */
+  --fs-surname: 2rem; /* 44px */
+  --lh: 1.6;
+
+  /* Shape & spacing */
+  --radius-btn: 14px;
+  --radius-card: 18px;
+  --gap: 16px;
+  --pad: 16px;
+  --btn-min-h: 64px;
+  --icon: 32px;
+  --content-max: 720px;
+
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+}
+
+html {
+  font-size: calc(22px * var(--text-scale));
+}
+
+@media (min-width: 600px) {
+  :root {
+    --pad: 32px;
+  }
+}

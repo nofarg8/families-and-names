@@ -1,0 +1,19 @@
+[
+  { "id": "agarunov", "name": "אגרונוב", "community": "mountain", "origin": "מהשם העברי אהרון, עם סיומת רוסית -וב.", "note": "סיומת -וב נפוצה גם אצל יהודי בוכרה ואצל קהילות נוספות מבריה״מ לשעבר.", "verified": false },
+  { "id": "avshalumov", "name": "אבשלומוב", "community": "mountain", "origin": "מהשם העברי אבשלום, עם סיומת רוסית -וב.", "note": "סיומת -וב נפוצה גם אצל יהודי בוכרה ואצל קהילות נוספות מבריה״מ לשעבר.", "verified": false },
+  { "id": "nisanov", "name": "ניסנוב", "community": "mountain", "origin": "מהשם העברי ניסן, עם סיומת רוסית -וב.", "note": "סיומת -וב נפוצה גם אצל יהודי בוכרה ואצל קהילות נוספות מבריה״מ לשעבר.", "verified": false },
+  { "id": "mordechayev", "name": "מרדכייב", "community": "mountain", "origin": "מהשם העברי מרדכי, עם סיומת רוסית -יב.", "note": "סיומות כמו -וב ו-יב נפוצות גם אצל יהודי בוכרה ואצל קהילות נוספות מבריה״מ לשעבר.", "verified": false },
+  { "id": "kalantarov", "name": "כלנתרוב", "community": "bukhara", "origin": "מהמילה ״כלנתר״, ראש הקהל או נכבד בקהילה, עם סיומת רוסית -וב.", "note": "סיומת -וב נפוצה גם אצל יהודי ההרים ואצל קהילות נוספות מבריה״מ לשעבר.", "verified": false },
+  { "id": "mikhaelashvili", "name": "מיכאלשווילי", "community": "georgia", "origin": "מהשם מיכאל, ועוד ״שווילי״, שפירושו בגאורגית ״בן של״.", "verified": false },
+  { "id": "davitashvili", "name": "דוויתשווילי", "community": "georgia", "origin": "מהשם דוד (בגאורגית: דווית), ועוד ״שווילי״, ״בן של״.", "verified": false },
+  { "id": "schneider", "name": "שניידר", "community": "ashkenazi", "origin": "״חייט״ בגרמנית וביידיש. שם שנקשר למקצוע.", "verified": false },
+  { "id": "becker", "name": "בקר", "community": "ashkenazi", "origin": "״אופה״ בגרמנית וביידיש. שם שנקשר למקצוע.", "verified": false },
+  { "id": "kaplan", "name": "קפלן", "community": "ashkenazi", "origin": "שם שנקשר למשפחות כהנים.", "verified": false },
+  { "id": "goldberg", "name": "גולדברג", "community": "ashkenazi", "origin": "שם נוי שפירושו ״הר זהב״.", "verified": false },
+  { "id": "elbaz", "name": "אלבז", "community": "morocco", "origin": "״הבז״ בערבית.", "verified": false },
+  { "id": "abutbul", "name": "אבוטבול", "community": "morocco", "origin": "״אבי התוף״ בערבית.", "verified": false },
+  { "id": "sasson", "name": "ששון", "community": "iraq", "origin": "״ששון״ בעברית: שמחה.", "verified": false },
+  { "id": "dalal", "name": "דלאל", "community": "iraq", "origin": "״מתווך״ בערבית. שם שנקשר למקצוע.", "verified": false },
+  { "id": "sharabi", "name": "שרעבי", "community": "yemen", "origin": "על שם אזור שרעב שבתימן.", "verified": false },
+  { "id": "kafeh", "name": "קאפח", "community": "yemen", "origin": "שם משפחה תימני מוכר.", "verified": false }
+]
