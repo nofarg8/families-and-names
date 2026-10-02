@@ -1,4 +1,5 @@
-import { Navigate, Route, Routes } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import { HomeBar } from './components/HomeBar'
 import { SpeechProvider } from './hooks/useSpeech'
 import { FamilyBook } from './screens/FamilyBook'
@@ -7,8 +8,12 @@ import { MyStory } from './screens/MyStory'
 import { NameGame } from './screens/NameGame'
 import { Settings } from './screens/Settings'
 import { TrueFalse } from './screens/TrueFalse'
+import { notifyRoute } from './update'
 
 export function App() {
+  const { pathname } = useLocation()
+  useEffect(() => notifyRoute(pathname), [pathname])
+
   return (
     <SpeechProvider>
       <div className="app">
