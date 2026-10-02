@@ -2,12 +2,17 @@ import surnamesJson from './surnames.json'
 import communitiesJson from './communities.json'
 import questionsJson from './story-questions.json'
 
+export type Source = { title: string; url: string }
+
 export type Surname = {
   id: string
   name: string
+  latin?: string
   community: string
-  origin: string
-  note?: string
+  /** null when the community link is sourced but the meaning isn't. */
+  origin: string | null
+  note?: string | null
+  sources?: Source[]
   verified: boolean
 }
 

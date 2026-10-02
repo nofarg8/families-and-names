@@ -23,6 +23,7 @@ export function Home() {
 
   const modules: Module[] = [
     { to: '/names', icon: 'names', title: t('home.names'), hint: t('home.names.hint'), variant: 'primary' },
+    { to: '/truefalse', icon: 'check', title: t('home.tf'), hint: t('home.tf.hint'), variant: 'primary' },
     { to: '/story', icon: 'story', title: t('home.story'), hint: t('home.story.hint'), variant: 'primary' },
   ]
   if (Object.keys(answers).length > 0) {

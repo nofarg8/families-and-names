@@ -17,6 +17,7 @@ const paths = {
   trash: 'M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6',
   next: 'M15 18l-6-6 6-6',
   note: 'M12 5v14M5 12h14',
+  idea: 'M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z',
 } as const
 
 export type IconName = keyof typeof paths

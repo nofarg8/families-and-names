@@ -10,11 +10,13 @@ import { communities, communityById, surnames, type Surname } from '../data/type
 import { useScreenText } from '../hooks/useSpeech'
 import { t } from '../i18n'
 import { shareText } from '../share'
+import { sourceLabel } from '../sources'
 
 const ROUNDS = 5
 const OPTIONS = 3
 
 type Round = { surname: Surname; options: string[] }
+
 
 function shuffle<T>(items: T[]): T[] {
   const a = [...items]
@@ -95,7 +97,7 @@ export function NameGame() {
             matched ? t('names.feedback.match') : t('names.feedback.other'),
             matched ? '' : t('names.feedback.otherBody', { chosen: communityById(chosen).name, community: home.name }),
             common,
-            `${t('names.origin')}: ${round.surname.origin}`,
+            round.surname.origin ? `${t('names.origin')}: ${round.surname.origin}` : '',
             round.surname.note ?? '',
             fact,
           ]
@@ -163,14 +165,26 @@ export function NameGame() {
               <p>{t('names.feedback.otherBody', { chosen: communityById(chosen).name, community: home.name })}</p>
             )}
             <p>{common}</p>
-            <p className="card-label">{t('names.origin')}</p>
-            <p>{round.surname.origin}</p>
+            {round.surname.origin && (
+              <>
+                <p className="card-label">{t('names.origin')}</p>
+                <p>{round.surname.origin}</p>
+              </>
+            )}
             {round.surname.note && <p className="muted">{round.surname.note}</p>}
             <p className="card-label">{t('names.aboutCommunity', { community: home.name })}</p>
             <p>{fact}</p>
           </Card>
           <AddNote targetId={`surname:${round.surname.id}`} label={t('names.knowFamily')} />
-          <p className="small muted">{t('names.caution')}</p>
+          <p className="small muted">
+            {round.surname.verified ? t('names.cautionVerified') : t('names.caution')}
+            {round.surname.sources?.length ? (
+              <>
+                {' '}
+                {t('names.sources', { sources: [...new Set(round.surname.sources.map((s) => sourceLabel(s.url)))].join(', ') })}
+              </>
+            ) : null}
+          </p>
           <ActionBar>
             <BigButton icon="next" onClick={next}>
               {isLast ? t('names.finish') : t('names.next')}

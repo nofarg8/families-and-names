@@ -1,19 +1,1893 @@
 [
-  { "id": "agarunov", "name": "אגרונוב", "community": "mountain", "origin": "מהשם העברי אהרון, עם סיומת רוסית -וב.", "note": "סיומת -וב נפוצה גם אצל יהודי בוכרה ואצל קהילות נוספות מבריה״מ לשעבר.", "verified": false },
-  { "id": "avshalumov", "name": "אבשלומוב", "community": "mountain", "origin": "מהשם העברי אבשלום, עם סיומת רוסית -וב.", "note": "סיומת -וב נפוצה גם אצל יהודי בוכרה ואצל קהילות נוספות מבריה״מ לשעבר.", "verified": false },
-  { "id": "nisanov", "name": "ניסנוב", "community": "mountain", "origin": "מהשם העברי ניסן, עם סיומת רוסית -וב.", "note": "סיומת -וב נפוצה גם אצל יהודי בוכרה ואצל קהילות נוספות מבריה״מ לשעבר.", "verified": false },
-  { "id": "mordechayev", "name": "מרדכייב", "community": "mountain", "origin": "מהשם העברי מרדכי, עם סיומת רוסית -יב.", "note": "סיומות כמו -וב ו-יב נפוצות גם אצל יהודי בוכרה ואצל קהילות נוספות מבריה״מ לשעבר.", "verified": false },
-  { "id": "kalantarov", "name": "כלנתרוב", "community": "bukhara", "origin": "מהמילה ״כלנתר״, ראש הקהל או נכבד בקהילה, עם סיומת רוסית -וב.", "note": "סיומת -וב נפוצה גם אצל יהודי ההרים ואצל קהילות נוספות מבריה״מ לשעבר.", "verified": false },
-  { "id": "mikhaelashvili", "name": "מיכאלשווילי", "community": "georgia", "origin": "מהשם מיכאל, ועוד ״שווילי״, שפירושו בגאורגית ״בן של״.", "verified": false },
-  { "id": "davitashvili", "name": "דוויתשווילי", "community": "georgia", "origin": "מהשם דוד (בגאורגית: דווית), ועוד ״שווילי״, ״בן של״.", "verified": false },
-  { "id": "schneider", "name": "שניידר", "community": "ashkenazi", "origin": "״חייט״ בגרמנית וביידיש. שם שנקשר למקצוע.", "verified": false },
-  { "id": "becker", "name": "בקר", "community": "ashkenazi", "origin": "״אופה״ בגרמנית וביידיש. שם שנקשר למקצוע.", "verified": false },
-  { "id": "kaplan", "name": "קפלן", "community": "ashkenazi", "origin": "שם שנקשר למשפחות כהנים.", "verified": false },
-  { "id": "goldberg", "name": "גולדברג", "community": "ashkenazi", "origin": "שם נוי שפירושו ״הר זהב״.", "verified": false },
-  { "id": "elbaz", "name": "אלבז", "community": "morocco", "origin": "״הבז״ בערבית.", "verified": false },
-  { "id": "abutbul", "name": "אבוטבול", "community": "morocco", "origin": "״אבי התוף״ בערבית.", "verified": false },
-  { "id": "sasson", "name": "ששון", "community": "iraq", "origin": "״ששון״ בעברית: שמחה.", "verified": false },
-  { "id": "dalal", "name": "דלאל", "community": "iraq", "origin": "״מתווך״ בערבית. שם שנקשר למקצוע.", "verified": false },
-  { "id": "sharabi", "name": "שרעבי", "community": "yemen", "origin": "על שם אזור שרעב שבתימן.", "verified": false },
-  { "id": "kafeh", "name": "קאפח", "community": "yemen", "origin": "שם משפחה תימני מוכר.", "verified": false }
+ {
+  "id": "schneider",
+  "name": "שניידר",
+  "latin": "Schneider",
+  "community": "ashkenazi",
+  "origin": "שם מקצוע: בגרמנית וביידיש פירושו חייט",
+  "note": "השם נפוץ גם אצל גרמנים שאינם יהודים.",
+  "sources": [
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   },
+   {
+    "title": "aish.com",
+    "url": "https://aish.com/the-meaning-of-some-common-jewish-last-names/"
+   },
+   {
+    "title": "Schneider (surname)",
+    "url": "https://en.wikipedia.org/wiki/Schneider_(surname)"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "becker",
+  "name": "בקר",
+  "latin": "Becker",
+  "community": "ashkenazi",
+  "origin": "שם מקצוע: בגרמנית פירושו אופה",
+  "note": "השם נפוץ מאוד גם אצל גרמנים שאינם יהודים.",
+  "sources": [
+   {
+    "title": "aish.com",
+    "url": "https://aish.com/the-meaning-of-some-common-jewish-last-names/"
+   },
+   {
+    "title": "Picker (surname)",
+    "url": "https://en.wikipedia.org/wiki/Picker_(surname)"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "kaplan",
+  "name": "קפלן",
+  "latin": "Kaplan",
+  "community": "ashkenazi",
+  "origin": "שם שמציין בדרך כלל צאצאי כהנים",
+  "note": "ברוסיה הצארית היו שאימצו את השם כדי להשתחרר מגיוס, ולכן לא כל בעליו כהנים.",
+  "sources": [
+   {
+    "title": "Kaplan (surname)",
+    "url": "https://en.wikipedia.org/wiki/Kaplan_(surname)"
+   },
+   {
+    "title": "aish.com",
+    "url": "https://aish.com/the-meaning-of-some-common-jewish-last-names/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "goldberg",
+  "name": "גולדברג",
+  "latin": "Goldberg",
+  "community": "ashkenazi",
+  "origin": "שם נוי בגרמנית וביידיש שפירושו הר זהב",
+  "note": null,
+  "sources": [
+   {
+    "title": "Goldberg (surname)",
+    "url": "https://en.wikipedia.org/wiki/Goldberg_(surname)"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "katz",
+  "name": "כץ",
+  "latin": "Katz",
+  "community": "ashkenazi",
+  "origin": "ראשי תיבות של כהן צדק, ומציין צאצאי כהנים",
+  "note": null,
+  "sources": [
+   {
+    "title": "Katz (surname)",
+    "url": "https://en.wikipedia.org/wiki/Katz_(surname)"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "segal",
+  "name": "סגל",
+  "latin": "Segal",
+  "community": "ashkenazi",
+  "origin": "לפי המקובל, ראשי תיבות של סגן לוויה, שם הקשור ללוויים",
+  "note": "יש מקורות המפרשים אותו כסגן לכהונה.",
+  "sources": [
+   {
+    "title": "Segal",
+    "url": "https://en.wikipedia.org/wiki/Segal"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "shapiro",
+  "name": "שפירא",
+  "latin": "Shapiro",
+  "community": "ashkenazi",
+  "origin": "על שם העיר שפייר (Speyer) שבגרמניה",
+  "note": "קהילת שפייר הייתה ממרכזי יהדות אשכנז בימי הביניים.",
+  "sources": [
+   {
+    "title": "Shapiro",
+    "url": "https://en.wikipedia.org/wiki/Shapiro"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "horowitz",
+  "name": "הורוביץ",
+  "latin": "Horowitz",
+  "community": "ashkenazi",
+  "origin": "על שם העיירה הורז'וביצה שבבוהמיה",
+  "note": "המשפחה נקשרת בדרך כלל ללוויים.",
+  "sources": [
+   {
+    "title": "Horowitz",
+    "url": "https://en.wikipedia.org/wiki/Horowitz"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "landau",
+  "name": "לנדאו",
+  "latin": "Landau",
+  "community": "ashkenazi",
+  "origin": "על שם העיר לנדאו שבגרמניה",
+  "note": null,
+  "sources": [
+   {
+    "title": "Landau (surname)",
+    "url": "https://en.wikipedia.org/wiki/Landau_(surname)"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "ginzburg",
+  "name": "גינזבורג",
+  "latin": "Ginzburg",
+  "community": "ashkenazi",
+  "origin": "על שם העיירה גינצבורג שבבוואריה",
+  "note": "יהודים רבים ברוסיה ובאוסטריה בחרו בשם כשנדרשו לאמץ שמות משפחה.",
+  "sources": [
+   {
+    "title": "Ginzburg",
+    "url": "https://en.wikipedia.org/wiki/Ginzburg"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "halpern",
+  "name": "הלפרין",
+  "latin": "Halpern",
+  "community": "ashkenazi",
+  "origin": "ככל הנראה על שם העיר היילברון שבגרמניה",
+  "note": null,
+  "sources": [
+   {
+    "title": "Heilprin",
+    "url": "https://en.wikipedia.org/wiki/Heilprin"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "oppenheimer",
+  "name": "אופנהיימר",
+  "latin": "Oppenheimer",
+  "community": "ashkenazi",
+  "origin": "על שם העיר אופנהיים שבגרמניה",
+  "note": "השם קיים גם אצל גרמנים שאינם יהודים.",
+  "sources": [
+   {
+    "title": "Oppenheimer (surname)",
+    "url": "https://en.wikipedia.org/wiki/Oppenheimer_(surname)"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "posner",
+  "name": "פוזנר",
+  "latin": "Posner",
+  "community": "ashkenazi",
+  "origin": "על שם העיר פוזנן (Posen) שבפולין",
+  "note": null,
+  "sources": [
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "rabinowitz",
+  "name": "רבינוביץ",
+  "latin": "Rabinowitz",
+  "community": "ashkenazi",
+  "origin": "בסיומת סלאבית: בנו של הרב",
+  "note": null,
+  "sources": [
+   {
+    "title": "Rabinowitz",
+    "url": "https://en.wikipedia.org/wiki/Rabinowitz"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "rivkin",
+  "name": "ריבקין",
+  "latin": "Rivkin",
+  "community": "ashkenazi",
+  "origin": "שם על שם האם: של רבקה",
+  "note": null,
+  "sources": [
+   {
+    "title": "Rivkin",
+    "url": "https://en.wikipedia.org/wiki/Rivkin"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "sorkin",
+  "name": "סורקין",
+  "latin": "Sorkin",
+  "community": "ashkenazi",
+  "origin": "שם על שם האם: סורקה, כינוי ביידיש לשרה",
+  "note": null,
+  "sources": [
+   {
+    "title": "Sorkin",
+    "url": "https://en.wikipedia.org/wiki/Sorkin"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "margolis",
+  "name": "מרגוליס",
+  "latin": "Margolis",
+  "community": "ashkenazi",
+  "origin": "מהמילה מרגלית, בהגייה אשכנזית",
+  "note": "יש הרואים בו שם על שם אישה בשם מרגלית.",
+  "sources": [
+   {
+    "title": "Margolis",
+    "url": "https://en.wikipedia.org/wiki/Margolis"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "schechter",
+  "name": "שכטר",
+  "latin": "Schechter",
+  "community": "ashkenazi",
+  "origin": "שם מקצוע: שוחט",
+  "note": null,
+  "sources": [
+   {
+    "title": "Schechter",
+    "url": "https://en.wikipedia.org/wiki/Schechter"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "schreiber",
+  "name": "שרייבר",
+  "latin": "Schreiber",
+  "community": "ashkenazi",
+  "origin": "שם מקצוע: בגרמנית פירושו כותב, כמו סופר סת״ם",
+  "note": null,
+  "sources": [
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   },
+   {
+    "title": "aish.com",
+    "url": "https://aish.com/the-meaning-of-some-common-jewish-last-names/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "rosenberg",
+  "name": "רוזנברג",
+  "latin": "Rosenberg",
+  "community": "ashkenazi",
+  "origin": "שם נוי בגרמנית שפירושו הר ורדים",
+  "note": "השם קיים גם אצל גרמנים שאינם יהודים.",
+  "sources": [
+   {
+    "title": "Rosenberg (surname)",
+    "url": "https://en.wikipedia.org/wiki/Rosenberg_(surname)"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/4825070/jewish/10-Keys-to-Understanding-Many-Ashkenazi-Surnames.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "bernstein",
+  "name": "ברנשטיין",
+  "latin": "Bernstein",
+  "community": "ashkenazi",
+  "origin": "בגרמנית פירושו ענבר",
+  "note": "השם קיים גם אצל גרמנים, אך נפוץ במיוחד אצל אשכנזים.",
+  "sources": [
+   {
+    "title": "Bernstein",
+    "url": "https://en.wikipedia.org/wiki/Bernstein"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "kashani",
+  "name": "קשאני",
+  "latin": "Kashani",
+  "community": "persia",
+  "origin": "על שם העיר קאשאן שבמרכז איראן",
+  "note": "השם נפוץ גם אצל איראנים שאינם יהודים.",
+  "sources": [
+   {
+    "title": "web.ece.ucsb.edu",
+    "url": "https://web.ece.ucsb.edu/~parhami/docs_folder/f27-meanings-persian-jewish-surnames.pdf"
+   },
+   {
+    "title": "Kashani",
+    "url": "https://en.wikipedia.org/wiki/Kashani"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "shirazi",
+  "name": "שירזי",
+  "latin": "Shirazi",
+  "community": "persia",
+  "origin": "על שם העיר שיראז שבדרום איראן",
+  "note": "השם נפוץ גם אצל איראנים שאינם יהודים.",
+  "sources": [
+   {
+    "title": "web.ece.ucsb.edu",
+    "url": "https://web.ece.ucsb.edu/~parhami/docs_folder/f27-meanings-persian-jewish-surnames.pdf"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/5410553/jewish/10-Facts-About-Persian-Jews.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "yazdi",
+  "name": "יזדי",
+  "latin": "Yazdi",
+  "community": "persia",
+  "origin": "על שם העיר יזד שבמרכז איראן",
+  "note": null,
+  "sources": [
+   {
+    "title": "web.ece.ucsb.edu",
+    "url": "https://web.ece.ucsb.edu/~parhami/docs_folder/f27-meanings-persian-jewish-surnames.pdf"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "hamedani",
+  "name": "המדאני",
+  "latin": "Hamedani",
+  "community": "persia",
+  "origin": "על שם העיר המדאן, שבה לפי המסורת קברי מרדכי ואסתר",
+  "note": null,
+  "sources": [
+   {
+    "title": "web.ece.ucsb.edu",
+    "url": "https://web.ece.ucsb.edu/~parhami/docs_folder/f27-meanings-persian-jewish-surnames.pdf"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "tehrani",
+  "name": "טהרני",
+  "latin": "Tehrani",
+  "community": "persia",
+  "origin": "על שם טהרן, בירת איראן",
+  "note": "השם נפוץ גם אצל איראנים שאינם יהודים.",
+  "sources": [
+   {
+    "title": "web.ece.ucsb.edu",
+    "url": "https://web.ece.ucsb.edu/~parhami/docs_folder/f27-meanings-persian-jewish-surnames.pdf"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/5410553/jewish/10-Facts-About-Persian-Jews.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "dardashti",
+  "name": "דרדשתי",
+  "latin": "Dardashti",
+  "community": "persia",
+  "origin": "על שם רובע דרדשת בעיר אספהאן",
+  "note": null,
+  "sources": [
+   {
+    "title": "web.ece.ucsb.edu",
+    "url": "https://web.ece.ucsb.edu/~parhami/docs_folder/f27-meanings-persian-jewish-surnames.pdf"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "recanati",
+  "name": "רקנאטי",
+  "latin": "Recanati",
+  "community": "balkan",
+  "origin": "על שם העיר רקנאטי שבאיטליה",
+  "note": "ענף של המשפחה ישב בסלוניקי. יהודה ליב רקנאטי, יליד סלוניקי, ייסד את בנק דיסקונט.",
+  "sources": [
+   {
+    "title": "www.encyclopedia.com",
+    "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/recanati"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "modiano",
+  "name": "מודיאנו",
+  "latin": "Modiano",
+  "community": "balkan",
+  "origin": "שם ממקור איטלקי, כנראה על שם העיירה מודיליאנה",
+  "note": "משפחה ידועה בסלוניקי.",
+  "sources": [
+   {
+    "title": "avotaynuonline.com",
+    "url": "https://avotaynuonline.com/2009/12/a-dictionary-of-jewish-surnames-in-bulgaria-a-window-on-its-history-by-mathilde-a-tagger/"
+   },
+   {
+    "title": "avotaynuonline.com",
+    "url": "https://avotaynuonline.com/2007/04/bushkando-muestros-nonos-i-nonas-family-history-research-on-sephardic-jewry-through-the-ladino-language-archives-of-the-jewish-community-of-salonika-by-devin-e-naar/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "florentin",
+  "name": "פלורנטין",
+  "latin": "Florentin",
+  "community": "balkan",
+  "origin": "שם ממקור איטלקי",
+  "note": "שכונת פלורנטין בתל אביב נקראת על שם שלמה פלורנטין מסלוניקי.",
+  "sources": [
+   {
+    "title": "avotaynuonline.com",
+    "url": "https://avotaynuonline.com/2009/12/a-dictionary-of-jewish-surnames-in-bulgaria-a-window-on-its-history-by-mathilde-a-tagger/"
+   },
+   {
+    "title": "פלורנטין",
+    "url": "https://he.wikipedia.org/wiki/פלורנטין"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "pilosof",
+  "name": "פילוסוף",
+  "latin": "Pilosof",
+  "community": "balkan",
+  "origin": "שם ממקור יווני, כנראה מהמילה פילוסוף",
+  "note": null,
+  "sources": [
+   {
+    "title": "avotaynuonline.com",
+    "url": "https://avotaynuonline.com/2009/12/a-dictionary-of-jewish-surnames-in-bulgaria-a-window-on-its-history-by-mathilde-a-tagger/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "calderon",
+  "name": "קלדרון",
+  "latin": "Calderon",
+  "community": "balkan",
+  "origin": "כינוי ספרדי שפירושו קלחת או סיר גדול",
+  "note": "השם קיים גם אצל ספרדים שאינם יהודים.",
+  "sources": [
+   {
+    "title": "avotaynuonline.com",
+    "url": "https://avotaynuonline.com/2009/12/a-dictionary-of-jewish-surnames-in-bulgaria-a-window-on-its-history-by-mathilde-a-tagger/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "yarhi",
+  "name": "ירחי",
+  "latin": "Yarhi",
+  "community": "balkan",
+  "origin": "על שם העיר לוניל שבצרפת, ששמה קשור לירח",
+  "note": null,
+  "sources": [
+   {
+    "title": "avotaynuonline.com",
+    "url": "https://avotaynuonline.com/2009/12/a-dictionary-of-jewish-surnames-in-bulgaria-a-window-on-its-history-by-mathilde-a-tagger/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "stroumsa",
+  "name": "סטרומזה",
+  "latin": "Stroumsa",
+  "community": "balkan",
+  "origin": "כנראה על שם העיירה סטרומיצה שבמקדוניה או נהר סטרומה",
+  "note": null,
+  "sources": [
+   {
+    "title": "rfpeurope.org",
+    "url": "https://rfpeurope.org/wp-content/uploads/2024/01/Sephardic-Onomastics_Harmony_10_EN.pdf"
+   },
+   {
+    "title": "avotaynuonline.com",
+    "url": "https://avotaynuonline.com/2007/04/bushkando-muestros-nonos-i-nonas-family-history-research-on-sephardic-jewry-through-the-ladino-language-archives-of-the-jewish-community-of-salonika-by-devin-e-naar/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "mitrani",
+  "name": "מיטרני",
+  "latin": "Mitrani",
+  "community": "balkan",
+  "origin": "מהעיר טראני שבדרום איטליה",
+  "note": null,
+  "sources": [
+   {
+    "title": "rfpeurope.org",
+    "url": "https://rfpeurope.org/wp-content/uploads/2024/01/Sephardic-Onomastics_Harmony_10_EN.pdf"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "elbaz",
+  "name": "אלבז",
+  "latin": "Elbaz",
+  "community": "morocco",
+  "origin": "ככל הנראה מערבית: אל-באז, כלומר הבז",
+  "note": "יש הקושרים את השם לעיר אלבש שבפורטוגל. השם נפוץ גם בקהילות אחרות בצפון אפריקה.",
+  "sources": [
+   {
+    "title": "אלבז",
+    "url": "https://he.wikipedia.org/wiki/אלבז"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "abutbul",
+  "name": "אבוטבול",
+  "latin": "Abutbul",
+  "community": "morocco",
+  "origin": "מערבית: כנראה מתופף, יצרן תופים או מוכר תופים",
+  "note": "הוצעו גם הסברים אחרים.",
+  "sources": [
+   {
+    "title": "אבוטבול",
+    "url": "https://he.wikipedia.org/wiki/אבוטבול"
+   },
+   {
+    "title": "blog.ravmilim.co.il",
+    "url": "https://blog.ravmilim.co.il/2018/11/01/%D7%93%D7%A8-%D7%A8%D7%95%D7%91%D7%99%D7%A7-%D7%A8%D7%95%D7%96%D7%A0%D7%98%D7%9C-%D7%9E%D7%A8%D7%92%D7%9C%D7%99%D7%AA-%D7%9E%D7%A6%D7%A0%D7%A2%D7%90-%D7%9B%D7%A8%D7%9E%D7%9C-%D7%9E%D7%93%D7%9E/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "dahan",
+  "name": "דהן",
+  "latin": "Dahan",
+  "community": "morocco",
+  "origin": "מערבית: צבע, סייד או מוכר שמן",
+  "note": "השם מופיע גם בקהילות אחרות בצפון אפריקה.",
+  "sources": [
+   {
+    "title": "דהן",
+    "url": "https://he.wikipedia.org/wiki/דהן"
+   },
+   {
+    "title": "blog.ravmilim.co.il",
+    "url": "https://blog.ravmilim.co.il/2018/11/01/%D7%93%D7%A8-%D7%A8%D7%95%D7%91%D7%99%D7%A7-%D7%A8%D7%95%D7%96%D7%A0%D7%98%D7%9C-%D7%9E%D7%A8%D7%92%D7%9C%D7%99%D7%AA-%D7%9E%D7%A6%D7%A0%D7%A2%D7%90-%D7%9B%D7%A8%D7%9E%D7%9C-%D7%9E%D7%93%D7%9E/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "alfasi",
+  "name": "אלפסי",
+  "latin": "Alfasi",
+  "community": "morocco",
+  "origin": "יוצא פאס, על שם העיר פאס שבמרוקו",
+  "note": null,
+  "sources": [
+   {
+    "title": "אלפסי",
+    "url": "https://he.wikipedia.org/wiki/אלפסי"
+   },
+   {
+    "title": "blog.ravmilim.co.il",
+    "url": "https://blog.ravmilim.co.il/2018/11/01/%D7%93%D7%A8-%D7%A8%D7%95%D7%91%D7%99%D7%A7-%D7%A8%D7%95%D7%96%D7%A0%D7%98%D7%9C-%D7%9E%D7%A8%D7%92%D7%9C%D7%99%D7%AA-%D7%9E%D7%A6%D7%A0%D7%A2%D7%90-%D7%9B%D7%A8%D7%9E%D7%9C-%D7%9E%D7%93%D7%9E/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "deri",
+  "name": "דרעי",
+  "latin": "Deri",
+  "community": "morocco",
+  "origin": "על שם אזור הדרעה שבמרוקו",
+  "note": "השם נפוץ גם אצל יהודי אלג'יריה ותוניסיה.",
+  "sources": [
+   {
+    "title": "דרעי",
+    "url": "https://he.wikipedia.org/wiki/דרעי"
+   },
+   {
+    "title": "blog.ravmilim.co.il",
+    "url": "https://blog.ravmilim.co.il/2018/11/01/%D7%93%D7%A8-%D7%A8%D7%95%D7%91%D7%99%D7%A7-%D7%A8%D7%95%D7%96%D7%A0%D7%98%D7%9C-%D7%9E%D7%A8%D7%92%D7%9C%D7%99%D7%AA-%D7%9E%D7%A6%D7%A0%D7%A2%D7%90-%D7%9B%D7%A8%D7%9E%D7%9C-%D7%9E%D7%93%D7%9E/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "ohayon",
+  "name": "אוחיון",
+  "latin": "Ohayon",
+  "community": "morocco",
+  "origin": "בנו של חיון. בברברית ״או״ פירושו בן",
+  "note": null,
+  "sources": [
+   {
+    "title": "אוחיון",
+    "url": "https://he.wikipedia.org/wiki/אוחיון"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "ohana",
+  "name": "אוחנה",
+  "latin": "Ohana",
+  "community": "morocco",
+  "origin": "יש המפרשים מוכר חינה, ויש המפרשים בברברית בנה של חנה",
+  "note": "השם נפוץ ביהדות צפון אפריקה.",
+  "sources": [
+   {
+    "title": "אוחנה",
+    "url": "https://he.wikipedia.org/wiki/אוחנה"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "abuhatzeira",
+  "name": "אבוחצירא",
+  "latin": "Abuhatzeira",
+  "community": "morocco",
+  "origin": "מערבית: אבו חצירה, כלומר אבי המחצלת",
+  "note": "משפחת רבנים ידועה ממרוקו. יש כמה מסורות על מקור הכינוי.",
+  "sources": [
+   {
+    "title": "משפחת אבוחצירא",
+    "url": "https://he.wikipedia.org/wiki/משפחת_אבוחצירא"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "azancot",
+  "name": "אזנקוט",
+  "latin": "Azancot",
+  "community": "morocco",
+  "origin": "כנראה קשור לשבט ברברי בשם זה בדרום מערב מרוקו",
+  "note": "נכתב גם איזנקוט.",
+  "sources": [
+   {
+    "title": "אזנקוט",
+    "url": "https://he.wikipedia.org/wiki/אזנקוט"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "toledano",
+  "name": "טולדנו",
+  "latin": "Toledano",
+  "community": "morocco",
+  "origin": "על שם העיר טולדו שבספרד",
+  "note": "שם של מגורשי ספרד, שמצוי גם בקהילות ספרדיות אחרות. רבנים רבים בשם זה פעלו במקנס ובמרקש.",
+  "sources": [
+   {
+    "title": "טולדנו",
+    "url": "https://he.wikipedia.org/wiki/טולדנו"
+   },
+   {
+    "title": "blog.ravmilim.co.il",
+    "url": "https://blog.ravmilim.co.il/2018/11/01/%D7%93%D7%A8-%D7%A8%D7%95%D7%91%D7%99%D7%A7-%D7%A8%D7%95%D7%96%D7%A0%D7%98%D7%9C-%D7%9E%D7%A8%D7%92%D7%9C%D7%99%D7%AA-%D7%9E%D7%A6%D7%A0%D7%A2%D7%90-%D7%9B%D7%A8%D7%9E%D7%9C-%D7%9E%D7%93%D7%9E/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "ifergan",
+  "name": "איפרגן",
+  "latin": "Ifergan",
+  "community": "morocco",
+  "origin": "על שם הכפר איפרגן שבהרי האטלס",
+  "note": null,
+  "sources": [
+   {
+    "title": "איפרגן",
+    "url": "https://he.wikipedia.org/wiki/איפרגן"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "sasson",
+  "name": "ששון",
+  "latin": "Sasson",
+  "community": "iraq",
+  "origin": "מעברית: ששון, כלומר שמחה",
+  "note": "משפחת ששון המפורסמת מוצאה בבגדאד. השם מצוי גם בקהילות אחרות.",
+  "sources": [
+   {
+    "title": "ששון",
+    "url": "https://he.wikipedia.org/wiki/ששון"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "dalal",
+  "name": "דלאל",
+  "latin": "Dalal",
+  "community": "iraq",
+  "origin": "מערבית: מתווך, על שם מקצוע",
+  "note": null,
+  "sources": [
+   {
+    "title": "isragen.org.il",
+    "url": "https://isragen.org.il/%D7%A9%D7%A2%D7%A8%D7%99-%D7%9E%D7%99%D7%93%D7%A2/%D7%A8%D7%A9%D7%95%D7%9E%D7%95%D7%AA-%D7%97%D7%95%D7%9C/%D7%A4%D7%99%D7%A8%D7%95%D7%A9-%D7%A9%D7%9E%D7%95%D7%AA-%D7%9E%D7%A9%D7%A4%D7%97%D7%94-%D7%91%D7%91%D7%91%D7%9C/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "shahrabani",
+  "name": "שהרבני",
+  "latin": "Shahrabani",
+  "community": "iraq",
+  "origin": "על שם העיר שהרבאן שבעיראק, צפונית מזרחית לבגדאד",
+  "note": null,
+  "sources": [
+   {
+    "title": "שהרבני",
+    "url": "https://he.wikipedia.org/wiki/שהרבני"
+   },
+   {
+    "title": "www.israelhayom.co.il",
+    "url": "https://www.israelhayom.co.il/article/589111"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "shasha",
+  "name": "שאשא",
+  "latin": "Shasha",
+  "community": "iraq",
+  "origin": "מערבית: במה",
+  "note": null,
+  "sources": [
+   {
+    "title": "שאשא",
+    "url": "https://he.wikipedia.org/wiki/שאשא"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "mutzafi",
+  "name": "מוצפי",
+  "latin": "Mutzafi",
+  "community": "iraq",
+  "origin": "ככל הנראה מערבית: מזקק זהב או צורף",
+  "note": null,
+  "sources": [
+   {
+    "title": "מוצפי",
+    "url": "https://he.wikipedia.org/wiki/מוצפי"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "kaduri",
+  "name": "כדורי",
+  "latin": "Kaduri",
+  "community": "iraq",
+  "origin": "יש הקושרים את השם לעיירה כדור שבהודו, שבה סחרו יהודי בגדאד",
+  "note": "יש גם הסבר אחר, מהמילה הערבית לירוק.",
+  "sources": [
+   {
+    "title": "כדורי",
+    "url": "https://he.wikipedia.org/wiki/כדורי"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "baghdadi",
+  "name": "בגדדי",
+  "latin": "Baghdadi",
+  "community": "iraq",
+  "origin": "על שם העיר בגדאד",
+  "note": "רבים שינו את השם לשם עברי אחרי העלייה.",
+  "sources": [
+   {
+    "title": "blog.ravmilim.co.il",
+    "url": "https://blog.ravmilim.co.il/2018/11/01/%D7%93%D7%A8-%D7%A8%D7%95%D7%91%D7%99%D7%A7-%D7%A8%D7%95%D7%96%D7%A0%D7%98%D7%9C-%D7%9E%D7%A8%D7%92%D7%9C%D7%99%D7%AA-%D7%9E%D7%A6%D7%A0%D7%A2%D7%90-%D7%9B%D7%A8%D7%9E%D7%9C-%D7%9E%D7%93%D7%9E/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "dangoor",
+  "name": "דנגור",
+  "latin": "Dangoor",
+  "community": "iraq",
+  "origin": null,
+  "note": null,
+  "sources": [
+   {
+    "title": "דנגור",
+    "url": "https://he.wikipedia.org/wiki/דנגור"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "sharabi",
+  "name": "שרעבי",
+  "latin": "Sharabi",
+  "community": "yemen",
+  "origin": "על שם אזור שרעב שבתימן",
+  "note": null,
+  "sources": [
+   {
+    "title": "שרעבי",
+    "url": "https://he.wikipedia.org/wiki/שרעבי"
+   },
+   {
+    "title": "Sharabi",
+    "url": "https://en.wikipedia.org/wiki/Sharabi"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "tzanani",
+  "name": "צנעני",
+  "latin": "Tzanani",
+  "community": "yemen",
+  "origin": "יוצא צנעא, בירת תימן",
+  "note": null,
+  "sources": [
+   {
+    "title": "צנעני",
+    "url": "https://he.wikipedia.org/wiki/צנעני"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "damari",
+  "name": "דמארי",
+  "latin": "Damari",
+  "community": "yemen",
+  "origin": "על שם העיר דמאר שבתימן",
+  "note": null,
+  "sources": [
+   {
+    "title": "דמארי",
+    "url": "https://he.wikipedia.org/wiki/דמארי"
+   },
+   {
+    "title": "Yemenite Jews",
+    "url": "https://en.wikipedia.org/wiki/Yemenite_Jews"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "adani",
+  "name": "עדני",
+  "latin": "Adani",
+  "community": "yemen",
+  "origin": "על שם העיר עדן שבתימן",
+  "note": null,
+  "sources": [
+   {
+    "title": "עדני",
+    "url": "https://he.wikipedia.org/wiki/עדני"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "taizi",
+  "name": "תעיזי",
+  "latin": "Taizi",
+  "community": "yemen",
+  "origin": "על שם מחוז תעז שבתימן",
+  "note": null,
+  "sources": [
+   {
+    "title": "תעיזי",
+    "url": "https://he.wikipedia.org/wiki/תעיזי"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "ratzabi",
+  "name": "רצאבי",
+  "latin": "Ratzabi",
+  "community": "yemen",
+  "origin": "יוצא רצאבה, כפר באזור דמאר שבתימן",
+  "note": null,
+  "sources": [
+   {
+    "title": "רצאבי",
+    "url": "https://he.wikipedia.org/wiki/רצאבי"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "hajbi",
+  "name": "חג'בי",
+  "latin": "Hajbi",
+  "community": "yemen",
+  "origin": "על שם העיירה חג'בה שבתימן, שרוב תושביה היו יהודים",
+  "note": null,
+  "sources": [
+   {
+    "title": "חג'בי",
+    "url": "https://he.wikipedia.org/wiki/חג'בי"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "shabazi",
+  "name": "שבזי",
+  "latin": "Shabazi",
+  "community": "yemen",
+  "origin": "יוצא שבז, יישוב בתימן",
+  "note": "זה גם שמו של המשורר רבי שלום שבזי.",
+  "sources": [
+   {
+    "title": "שבזי",
+    "url": "https://he.wikipedia.org/wiki/שבזי"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "arusi",
+  "name": "ערוסי",
+  "latin": "Arusi",
+  "community": "yemen",
+  "origin": "על שם הכפר ערוס שבתימן",
+  "note": null,
+  "sources": [
+   {
+    "title": "ערוסי",
+    "url": "https://he.wikipedia.org/wiki/ערוסי"
+   },
+   {
+    "title": "Yemenite Jews",
+    "url": "https://en.wikipedia.org/wiki/Yemenite_Jews"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "bashari",
+  "name": "בשארי",
+  "latin": "Bashari",
+  "community": "yemen",
+  "origin": "בנו של בשאר, שם על שם אב קדמון",
+  "note": null,
+  "sources": [
+   {
+    "title": "בשארי",
+    "url": "https://he.wikipedia.org/wiki/בשארי"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "tabib",
+  "name": "טביב",
+  "latin": "Tabib",
+  "community": "yemen",
+  "origin": "מערבית: רופא",
+  "note": null,
+  "sources": [
+   {
+    "title": "טביב",
+    "url": "https://he.wikipedia.org/wiki/טביב"
+   },
+   {
+    "title": "blog.ravmilim.co.il",
+    "url": "https://blog.ravmilim.co.il/2018/11/01/%D7%93%D7%A8-%D7%A8%D7%95%D7%91%D7%99%D7%A7-%D7%A8%D7%95%D7%96%D7%A0%D7%98%D7%9C-%D7%9E%D7%A8%D7%92%D7%9C%D7%99%D7%AA-%D7%9E%D7%A6%D7%A0%D7%A2%D7%90-%D7%9B%D7%A8%D7%9E%D7%9C-%D7%9E%D7%93%D7%9E/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "kafih",
+  "name": "קאפח",
+  "latin": "Kafih",
+  "community": "yemen",
+  "origin": null,
+  "note": "משפחת רבנים ידועה מצנעא, ובהם הרב יוסף קאפח.",
+  "sources": [
+   {
+    "title": "קאפח",
+    "url": "https://he.wikipedia.org/wiki/קאפח"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "kalantarov",
+  "name": "קלנטרוב",
+  "latin": "Kalantarov",
+  "community": "bukhara",
+  "origin": "מהתואר ״קלנטר״, ראש הקהילה היהודית בעיר",
+  "note": "סיומת -וב נפוצה גם אצל יהודי ההרים ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "יהדות בוכרה",
+    "url": "https://he.wikipedia.org/wiki/יהדות_בוכרה"
+   },
+   {
+    "title": "he.chabad.org",
+    "url": "https://he.chabad.org/library/article_cdo/aid/7331751"
+   },
+   {
+    "title": "www.iranicaonline.org",
+    "url": "https://www.iranicaonline.org/articles/bukhara-vii/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "pinhasov",
+  "name": "פנחסוב",
+  "latin": "Pinhasov",
+  "community": "bukhara",
+  "origin": "על שם אבי המשפחה, פנחס",
+  "note": "סיומת -וב נפוצה גם אצל יהודי ההרים ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "he.chabad.org",
+    "url": "https://he.chabad.org/library/article_cdo/aid/7331751"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "yitzhakov",
+  "name": "יצחקוב",
+  "latin": "Yitzhakov",
+  "community": "bukhara",
+  "origin": "על שם אבי המשפחה, יצחק",
+  "note": "סיומת -וב נפוצה גם אצל יהודי ההרים ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "he.chabad.org",
+    "url": "https://he.chabad.org/library/article_cdo/aid/7331751"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/6819530/jewish/13-Facts-You-Should-Know-About-Bukharian-Jews.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "borukhov",
+  "name": "ברוכוב",
+  "latin": "Borukhov",
+  "community": "bukhara",
+  "origin": "על שם אבי המשפחה, ברוך",
+  "note": "סיומת -וב נפוצה גם אצל יהודי ההרים ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "he.chabad.org",
+    "url": "https://he.chabad.org/library/article_cdo/aid/7331751"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/6819530/jewish/13-Facts-You-Should-Know-About-Bukharian-Jews.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "moussaieff",
+  "name": "מוסאיוף",
+  "latin": "Moussaieff",
+  "community": "bukhara",
+  "origin": "מהשם מוסא, הצורה הערבית של השם משה",
+  "note": "מייסד שכונת הבוכרים בירושלים נשא את השם הזה.",
+  "sources": [
+   {
+    "title": "Moussaieff",
+    "url": "https://en.wikipedia.org/wiki/Moussaieff"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "simchayoff",
+  "name": "שמחיוף",
+  "latin": "Simchayoff",
+  "community": "bukhara",
+  "origin": "על שם אבי המשפחה, שמחה",
+  "note": "סיומת -וב נפוצה גם אצל יהודי ההרים ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   },
+   {
+    "title": "אלעד שמחיוף",
+    "url": "https://he.wikipedia.org/wiki/אלעד_שמחיוף"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "gavrielov",
+  "name": "גבריאלוב",
+  "latin": "Gavrielov",
+  "community": "bukhara",
+  "origin": "על שם אבי המשפחה, גבריאל",
+  "note": "סיומת -וב נפוצה גם אצל יהודי ההרים ואצל יהודים נוספים מברית המועצות לשעבר. השם קיים גם בקהילות אחרות.",
+  "sources": [
+   {
+    "title": "מאיר חיים גבריאלוב",
+    "url": "https://he.wikipedia.org/wiki/מאיר_חיים_גבריאלוב"
+   },
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "leviev",
+  "name": "לבייב",
+  "latin": "Leviev",
+  "community": "bukhara",
+  "origin": null,
+  "note": "סיומת -וב נפוצה גם אצל יהודי ההרים ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "לב לבייב",
+    "url": "https://he.wikipedia.org/wiki/לב_לבייב"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "aminoff",
+  "name": "אמינוף",
+  "latin": "Aminoff",
+  "community": "bukhara",
+  "origin": null,
+  "note": null,
+  "sources": [
+   {
+    "title": "אמינוף",
+    "url": "https://he.wikipedia.org/wiki/אמינוף"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "mullokandov",
+  "name": "מולוקנדוב",
+  "latin": "Mullokandov",
+  "community": "bukhara",
+  "origin": null,
+  "note": null,
+  "sources": [
+   {
+    "title": "Gavriel Mullokandov",
+    "url": "https://en.wikipedia.org/wiki/Gavriel_Mullokandov"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "mikhaelashvili",
+  "name": "מיכאלשווילי",
+  "latin": "Mikhaelashvili",
+  "community": "georgia",
+  "origin": "ילד של מיכאל. ״שווילי״ פירושו בגאורגית ילד, כלומר בן",
+  "note": null,
+  "sources": [
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   },
+   {
+    "title": "www.chabad.org",
+    "url": "https://www.chabad.org/library/article_cdo/aid/6901418/jewish/16-Facts-About-the-Jews-of-Georgia.htm"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "yakobashvili",
+  "name": "יעקובשווילי",
+  "latin": "Yakobashvili",
+  "community": "georgia",
+  "origin": "ילד של יעקב, כלומר בן יעקב",
+  "note": null,
+  "sources": [
+   {
+    "title": "יעקובשווילי",
+    "url": "https://he.wikipedia.org/wiki/יעקובשווילי"
+   },
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "israelashvili",
+  "name": "ישראלשווילי",
+  "latin": "Israelashvili",
+  "community": "georgia",
+  "origin": "ילד של ישראל, כלומר בן ישראל",
+  "note": null,
+  "sources": [
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "eliashvili",
+  "name": "אליאשווילי",
+  "latin": "Eliashvili",
+  "community": "georgia",
+  "origin": "ילד של אליה (אליהו)",
+  "note": "שם המבוסס על שם תנ״כי, שנושאים אותו גם גאורגים שאינם יהודים.",
+  "sources": [
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   },
+   {
+    "title": "מיכאל אליאשווילי",
+    "url": "https://he.wikipedia.org/wiki/מיכאל_אליאשווילי"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "khakhmishvili",
+  "name": "חכמישווילי",
+  "latin": "Khakhmishvili",
+  "community": "georgia",
+  "origin": "ילד של החכם, כלומר בנו של הרב",
+  "note": null,
+  "sources": [
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   },
+   {
+    "title": "יוסף חכמי",
+    "url": "https://he.wikipedia.org/wiki/יוסף_חכמי"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "kosashvili",
+  "name": "קוסאשווילי",
+  "latin": "Kosashvili",
+  "community": "georgia",
+  "origin": "מכינוי גאורגי שפירושו חסר זקן",
+  "note": null,
+  "sources": [
+   {
+    "title": "קוסאשווילי",
+    "url": "https://he.wikipedia.org/wiki/קוסאשווילי"
+   },
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "mirilashvili",
+  "name": "מירילשווילי",
+  "latin": "Mirilashvili",
+  "community": "georgia",
+  "origin": "על שם אם קדומה, מירו (מרים)",
+  "note": "שם על שם האם ולא על שם האב, וזה נדיר.",
+  "sources": [
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   },
+   {
+    "title": "Georgian Jews",
+    "url": "https://en.wikipedia.org/wiki/Georgian_Jews"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "khotoveli",
+  "name": "חוטובלי",
+  "latin": "Khotoveli",
+  "community": "georgia",
+  "origin": "מהכפר חוטבי שבחבל רצ'ה בגאורגיה",
+  "note": null,
+  "sources": [
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   },
+   {
+    "title": "חוטובלי",
+    "url": "https://he.wikipedia.org/wiki/חוטובלי"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "krikheli",
+  "name": "קריחלי",
+  "latin": "Krikheli",
+  "community": "georgia",
+  "origin": "מהכפר קריחי שבחבל רצ'ה בגאורגיה",
+  "note": null,
+  "sources": [
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "gagulashvili",
+  "name": "גגולאשווילי",
+  "latin": "Gagulashvili",
+  "community": "georgia",
+  "origin": "ילד של גגולה, שם פרטי גאורגי",
+  "note": null,
+  "sources": [
+   {
+    "title": "גגולאשווילי",
+    "url": "https://he.wikipedia.org/wiki/גגולאשווילי"
+   },
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "magalashvili",
+  "name": "מגלשווילי",
+  "latin": "Magalashvili",
+  "community": "georgia",
+  "origin": "מכינוי גאורגי שפירושו גבוה",
+  "note": "השם קיים גם אצל גאורגים שאינם יהודים.",
+  "sources": [
+   {
+    "title": "www.mdpi.com",
+    "url": "https://www.mdpi.com/2313-5778/7/3/68"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "agarunov",
+  "name": "אגרונוב",
+  "latin": "Agarunov",
+  "community": "mountain",
+  "origin": "מהשם הפרטי אגרון, שהיה נהוג בקהילה, עם סיומת רוסית",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/119785/familii-gorskikh-evreev-v-proshlom-i-nastoyashchem/"
+   },
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/43541/antologiya_gorsko_evreyskikh_imen_8036/"
+   },
+   {
+    "title": "Albert Agarunov",
+    "url": "https://en.wikipedia.org/wiki/Albert_Agarunov"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "avshalumov",
+  "name": "אבשלומוב",
+  "latin": "Avshalumov",
+  "community": "mountain",
+  "origin": "מהשם אבשלום, שבג׳והורי נהגה אובשולום",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "Авшалумов",
+    "url": "https://ru.wikipedia.org/wiki/Авшалумов"
+   },
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/70907/o-gorsko-evreyskoy-onomastike-kak-izmenyalis-imena-dzhuuro/"
+   },
+   {
+    "title": "Hizgil Avshalumov",
+    "url": "https://en.wikipedia.org/wiki/Hizgil_Avshalumov"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "nisanov",
+  "name": "ניסנוב",
+  "latin": "Nisanov",
+  "community": "mountain",
+  "origin": "מהשם ניסן: ״בן ניסן״ הפך לשם המשפחה",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/43541/antologiya_gorsko_evreyskikh_imen_8036/"
+   },
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/119785/familii-gorskikh-evreev-v-proshlom-i-nastoyashchem/"
+   },
+   {
+    "title": "Yehezkel Nisanov",
+    "url": "https://en.wikipedia.org/wiki/Yehezkel_Nisanov"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "mardakhaev",
+  "name": "מרדכייב",
+  "latin": "Mardakhaev",
+  "community": "mountain",
+  "origin": "מהשם מרדכי, שבקהילה נהגה מרדחאי",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/119785/familii-gorskikh-evreev-v-proshlom-i-nastoyashchem/"
+   },
+   {
+    "title": "Mordecai ben Avshalom",
+    "url": "https://en.wikipedia.org/wiki/Mordecai_ben_Avshalom"
+   },
+   {
+    "title": "יהודי ההרים",
+    "url": "https://he.wikipedia.org/wiki/יהודי_ההרים"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "ilizarov",
+  "name": "איליזרוב",
+  "latin": "Ilizarov",
+  "community": "mountain",
+  "origin": "מהשם איליזר, הצורה המקומית של אליעזר",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "gorskie.ru",
+    "url": "https://gorskie.ru/juhuro/history/item/333-%D0%B0%D0%BD%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BD%D0%B8%D0%BC%D0%B8%D0%BA%D0%B0-%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D1%85-%D0%B5%D0%B2%D1%80%D0%B5%D0%B5%D0%B2"
+   },
+   {
+    "title": "Илизаров",
+    "url": "https://ru.wikipedia.org/wiki/Илизаров"
+   },
+   {
+    "title": "Gavriil Ilizarov",
+    "url": "https://en.wikipedia.org/wiki/Gavriil_Ilizarov"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "gurshumov",
+  "name": "גורשומוב",
+  "latin": "Gurshumov",
+  "community": "mountain",
+  "origin": "מהשם הפרטי גורשום, שמו של אב קדמון",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "gorskie.ru",
+    "url": "https://gorskie.ru/juhuro/history/item/333-%D0%B0%D0%BD%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BD%D0%B8%D0%BC%D0%B8%D0%BA%D0%B0-%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D1%85-%D0%B5%D0%B2%D1%80%D0%B5%D0%B5%D0%B2"
+   },
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/119785/familii-gorskikh-evreev-v-proshlom-i-nastoyashchem/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "ilyaguev",
+  "name": "איליאגוייב",
+  "latin": "Ilyaguev",
+  "community": "mountain",
+  "origin": "מהשם איליאגו, הצורה המקומית של אליהו",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "gorskie.ru",
+    "url": "https://gorskie.ru/juhuro/history/item/333-%D0%B0%D0%BD%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BD%D0%B8%D0%BC%D0%B8%D0%BA%D0%B0-%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D1%85-%D0%B5%D0%B2%D1%80%D0%B5%D0%B5%D0%B2"
+   },
+   {
+    "title": "רזיאל איליאגוייב",
+    "url": "https://he.wikipedia.org/wiki/רזיאל_איליאגוייב"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "shalumov",
+  "name": "שלומוב",
+  "latin": "Shalumov",
+  "community": "mountain",
+  "origin": "מהשם המקראי שלום, שבג׳והורי נהגה שולום",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/70907/o-gorsko-evreyskoy-onomastike-kak-izmenyalis-imena-dzhuuro/"
+   },
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/119785/familii-gorskikh-evreev-v-proshlom-i-nastoyashchem/"
+   },
+   {
+    "title": "אחסו שלומוב",
+    "url": "https://he.wikipedia.org/wiki/אחסו_שלומוב"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "shaulov",
+  "name": "שאולוב",
+  "latin": "Shaulov",
+  "community": "mountain",
+  "origin": "מהשם שאול, כלומר בן שאול",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/posts/30694/evreyskie-familii-istoriya-proiskhozhdeniya-i-raznoobrazie/"
+   },
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/70907/o-gorsko-evreyskoy-onomastike-kak-izmenyalis-imena-dzhuuro/"
+   },
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/119785/familii-gorskikh-evreev-v-proshlom-i-nastoyashchem/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "ashurov",
+  "name": "אשורוב",
+  "latin": "Ashurov",
+  "community": "mountain",
+  "origin": "מהשם אשור, שלפי המקורות הוא כנראה צורה של אשר",
+  "note": "השם נפוץ גם אצל יהודי בוכרה וגם אצל אוזבקים.",
+  "sources": [
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/posts/30694/evreyskie-familii-istoriya-proiskhozhdeniya-i-raznoobrazie/"
+   },
+   {
+    "title": "gorskie.ru",
+    "url": "https://gorskie.ru/juhuro/history/item/333-%D0%B0%D0%BD%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BD%D0%B8%D0%BC%D0%B8%D0%BA%D0%B0-%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D1%85-%D0%B5%D0%B2%D1%80%D0%B5%D0%B5%D0%B2"
+   },
+   {
+    "title": "Ашуров",
+    "url": "https://ru.wikipedia.org/wiki/Ашуров"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "yusufov",
+  "name": "יוסופוב",
+  "latin": "Yusufov",
+  "community": "mountain",
+  "origin": "מהשם יוסוף, הצורה המקומית של יוסף",
+  "note": "השם נפוץ גם אצל יהודי בוכרה ואצל מוסלמים.",
+  "sources": [
+   {
+    "title": "gorskie.ru",
+    "url": "https://gorskie.ru/juhuro/history/item/333-%D0%B0%D0%BD%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BD%D0%B8%D0%BC%D0%B8%D0%BA%D0%B0-%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D1%85-%D0%B5%D0%B2%D1%80%D0%B5%D0%B5%D0%B2"
+   },
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/119785/familii-gorskikh-evreev-v-proshlom-i-nastoyashchem/"
+   },
+   {
+    "title": "Еврейские фамилии",
+    "url": "https://ru.wikipedia.org/wiki/Еврейские_фамилии"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "rafailov",
+  "name": "רפאלוב",
+  "latin": "Rafailov",
+  "community": "mountain",
+  "origin": "מהשם רפאל, שבג׳והורי נהגה רפויל",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/70907/o-gorsko-evreyskoy-onomastike-kak-izmenyalis-imena-dzhuuro/"
+   },
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/119785/familii-gorskikh-evreev-v-proshlom-i-nastoyashchem/"
+   },
+   {
+    "title": "יהודי ההרים",
+    "url": "https://he.wikipedia.org/wiki/יהודי_ההרים"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "manakhimov",
+  "name": "מנחימוב",
+  "latin": "Manakhimov",
+  "community": "mountain",
+  "origin": "מהשם מנחם, שבג׳והורי נהגה מנהים",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/70907/o-gorsko-evreyskoy-onomastike-kak-izmenyalis-imena-dzhuuro/"
+   },
+   {
+    "title": "לב מנחימוב",
+    "url": "https://he.wikipedia.org/wiki/לב_מנחימוב"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "anisimov",
+  "name": "אניסימוב",
+  "latin": "Anisimov",
+  "community": "mountain",
+  "origin": "מהשם ניסים, שברוסית נכתב אניסים",
+  "note": "אניסימוב הוא גם שם משפחה רוסי נפוץ, ממקור אחר.",
+  "sources": [
+   {
+    "title": "gorskie.ru",
+    "url": "https://gorskie.ru/juhuro/history/item/333-%D0%B0%D0%BD%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BD%D0%B8%D0%BC%D0%B8%D0%BA%D0%B0-%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D1%85-%D0%B5%D0%B2%D1%80%D0%B5%D0%B5%D0%B2"
+   },
+   {
+    "title": "Ilya Anisimov",
+    "url": "https://en.wikipedia.org/wiki/Ilya_Anisimov"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "gililov",
+  "name": "גילילוב",
+  "latin": "Gililov",
+  "community": "mountain",
+  "origin": "מהשם הלל",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "Гилилов",
+    "url": "https://ru.wikipedia.org/wiki/Гилилов"
+   },
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/119785/familii-gorskikh-evreev-v-proshlom-i-nastoyashchem/"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "mishiev",
+  "name": "מישייב",
+  "latin": "Mishiev",
+  "community": "mountain",
+  "origin": "מהשם הפרטי מישי, שם נפוץ אצל יהודי ההרים",
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/119785/familii-gorskikh-evreev-v-proshlom-i-nastoyashchem/"
+   },
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/43541/antologiya_gorsko_evreyskikh_imen_8036/"
+   },
+   {
+    "title": "יאגוטיל מישייב",
+    "url": "https://he.wikipedia.org/wiki/יאגוטיל_מישייב"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "zakharyaev",
+  "name": "זכרייב",
+  "latin": "Zakharyaev",
+  "community": "mountain",
+  "origin": null,
+  "note": "סיומת -וב/-ייב נפוצה גם אצל יהודי בוכרה ואצל יהודים נוספים מברית המועצות לשעבר.",
+  "sources": [
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/119785/familii-gorskikh-evreev-v-proshlom-i-nastoyashchem/"
+   },
+   {
+    "title": "גרמן זכרייב",
+    "url": "https://he.wikipedia.org/wiki/גרמן_זכרייב"
+   }
+  ],
+  "verified": true
+ },
+ {
+  "id": "dadashev",
+  "name": "דדשב",
+  "latin": "Dadashev",
+  "community": "mountain",
+  "origin": "מהשם הפרטי דדש, שאינו שם עברי",
+  "note": "זה מקרה יוצא דופן: רוב שמות המשפחה של יהודי ההרים נוצרו משמות עבריים.",
+  "sources": [
+   {
+    "title": "stmegi.com",
+    "url": "https://stmegi.com/gorskie_evrei/posts/119785/familii-gorskikh-evreev-v-proshlom-i-nastoyashchem/"
+   },
+   {
+    "title": "מנובך דדשב",
+    "url": "https://he.wikipedia.org/wiki/מנובך_דדשב"
+   }
+  ],
+  "verified": true
+ }
 ]

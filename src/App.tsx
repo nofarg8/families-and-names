@@ -6,6 +6,7 @@ import { Home } from './screens/Home'
 import { MyStory } from './screens/MyStory'
 import { NameGame } from './screens/NameGame'
 import { Settings } from './screens/Settings'
+import { TrueFalse } from './screens/TrueFalse'
 
 export function App() {
   return (
@@ -15,6 +16,7 @@ export function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/names" element={<NameGame />} />
+          <Route path="/truefalse" element={<TrueFalse />} />
           <Route path="/story" element={<MyStory />} />
           <Route path="/book" element={<FamilyBook />} />
           <Route path="/settings" element={<Settings />} />

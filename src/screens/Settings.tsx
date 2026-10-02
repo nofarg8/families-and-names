@@ -52,6 +52,18 @@ export function Settings() {
         />
       </section>
 
+      <section className="stack" aria-labelledby="sound-h">
+        <h2 id="sound-h">{t('settings.sound')}</h2>
+        <div className="choices" role="group" aria-labelledby="sound-h">
+          <ChoiceButton selected={settings.sound} onClick={() => update({ sound: true })}>
+            {t('settings.yes')}
+          </ChoiceButton>
+          <ChoiceButton selected={!settings.sound} onClick={() => update({ sound: false })}>
+            {t('settings.no')}
+          </ChoiceButton>
+        </div>
+      </section>
+
       {supported && (
         <>
           <section className="stack" aria-labelledby="auto-h">

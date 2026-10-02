@@ -5,12 +5,12 @@
     "region": "מזרח הקווקז: אזרבייג'ן ודאגסטן",
     "color": "#A3243B",
     "facts": [
-      "יהודי ההרים קוראים לעצמם ״ג'והורו״, ושפתם היא ג'והורי, שפה קרובה לפרסית."
+      "יהודי ההרים מכנים את עצמם ״ג׳והורו״, ושפתם, הג׳והורי, היא שפה איראנית קרובה לפרסית."
     ],
-    "confusableWith": ["bukhara"],
-    "commonSurnames": ["agarunov", "avshalumov", "nisanov", "mordechayev"],
+    "confusableWith": ["bukhara", "persia"],
+    "commonSurnames": [],
     "question": "את מי אתה מכיר מהקהילה הזו?",
-    "verified": false
+    "verified": true
   },
   {
     "id": "bukhara",
@@ -18,12 +18,12 @@
     "region": "מרכז אסיה: בעיקר אוזבקיסטן וטג'יקיסטן",
     "color": "#6B3FA0",
     "facts": [
-      "יהודי בוכרה דיברו בוכרית, שפה יהודית קרובה לטג'יקית ולפרסית."
+      "יהודי בוכרה דיברו בוכרית, ניב יהודי-פרסי קרוב לטג׳יקית, עם מילים מעברית ומארמית."
     ],
-    "confusableWith": ["mountain"],
-    "commonSurnames": ["kalantarov"],
+    "confusableWith": ["mountain", "persia"],
+    "commonSurnames": [],
     "question": "את מי אתה מכיר מהקהילה הזו?",
-    "verified": false
+    "verified": true
   },
   {
     "id": "georgia",
@@ -31,12 +31,12 @@
     "region": "גאורגיה",
     "color": "#1F4E79",
     "facts": [
-      "שמות רבים של יהודי גאורגיה מסתיימים ב״שווילי״, שפירושו בגאורגית ״בן של״."
+      "זו אחת הקהילות היהודיות העתיקות בעולם. יהודי גאורגיה דיברו גאורגית, עם ניב יהודי-גאורגי."
     ],
     "confusableWith": [],
-    "commonSurnames": ["mikhaelashvili", "davitashvili"],
+    "commonSurnames": [],
     "question": "את מי אתה מכיר מהקהילה הזו?",
-    "verified": false
+    "verified": true
   },
   {
     "id": "ashkenazi",
@@ -44,12 +44,12 @@
     "region": "מרכז ומזרח אירופה",
     "color": "#5A4632",
     "facts": [
-      "יהודים אשכנזים רבים קיבלו שמות משפחה קבועים רק במאות ה-18 וה-19, לפי חוקי המדינות שבהן חיו."
+      "״אשכנז״ היה הכינוי העברי לגרמניה בימי הביניים, ומכאן השם ״אשכנזים״."
     ],
     "confusableWith": [],
-    "commonSurnames": ["schneider", "becker", "kaplan", "goldberg"],
+    "commonSurnames": [],
     "question": "את מי אתה מכיר מהקהילה הזו?",
-    "verified": false
+    "verified": true
   },
   {
     "id": "morocco",
@@ -57,12 +57,12 @@
     "region": "צפון אפריקה",
     "color": "#8A4B08",
     "facts": [
-      "יהודי מרוקו דיברו ערבית-יהודית, ובחלק מהקהילות גם ספרדית-יהודית."
+      "הרובע היהודי בערי מרוקו נקרא ״מלאח״, ובצאת הפסח חוגגים יהודי מרוקו את המימונה."
     ],
-    "confusableWith": [],
-    "commonSurnames": ["elbaz", "abutbul"],
+    "confusableWith": ["balkan"],
+    "commonSurnames": [],
     "question": "את מי אתה מכיר מהקהילה הזו?",
-    "verified": false
+    "verified": true
   },
   {
     "id": "iraq",
@@ -70,12 +70,12 @@
     "region": "בבל, היא עיראק של היום",
     "color": "#2E6B4F",
     "facts": [
-      "קהילת יהודי עיראק נחשבת לאחת הקהילות העתיקות בגולה, עוד מימי גלות בבל."
+      "התלמוד הבבלי נוצר בישיבות סורא ופומבדיתא שבבבל, בשטח עיראק של היום."
     ],
     "confusableWith": [],
-    "commonSurnames": ["sasson", "dalal"],
+    "commonSurnames": [],
     "question": "את מי אתה מכיר מהקהילה הזו?",
-    "verified": false
+    "verified": true
   },
   {
     "id": "yemen",
@@ -83,11 +83,37 @@
     "region": "דרום חצי האי ערב",
     "color": "#3D4F7A",
     "facts": [
-      "ליהודי תימן מסורת מיוחדת של קריאה והגייה של העברית."
+      "רוב יהודי תימן עלו לישראל במבצע ״על כנפי נשרים״, המוכר גם כ״מרבד הקסמים״."
     ],
     "confusableWith": [],
-    "commonSurnames": ["sharabi", "kafeh"],
+    "commonSurnames": [],
     "question": "את מי אתה מכיר מהקהילה הזו?",
-    "verified": false
+    "verified": true
+  },
+  {
+    "id": "persia",
+    "name": "יהודי פרס",
+    "region": "איראן",
+    "color": "#7A3B5C",
+    "facts": [
+      "יהדות פרס היא מהקהילות הוותיקות בתפוצות. שמות משפחה קבועים הונהגו באיראן רק בשנות ה-20 של המאה ה-20."
+    ],
+    "confusableWith": ["bukhara", "mountain"],
+    "commonSurnames": [],
+    "question": "את מי אתה מכיר מהקהילה הזו?",
+    "verified": true
+  },
+  {
+    "id": "balkan",
+    "name": "ספרדים מטורקיה והבלקן",
+    "region": "טורקיה, יוון, בולגריה ויוגוסלביה לשעבר",
+    "color": "#4A5A2A",
+    "facts": [
+      "אחרי גירוש ספרד ב-1492 התיישבו מגורשים רבים באימפריה העות׳מאנית, וסלוניקי כונתה ״ירושלים של הבלקן״."
+    ],
+    "confusableWith": ["morocco"],
+    "commonSurnames": [],
+    "question": "את מי אתה מכיר מהקהילה הזו?",
+    "verified": true
   }
 ]

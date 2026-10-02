@@ -7,10 +7,11 @@ export type Settings = {
   userName?: string
   autoSpeak: boolean
   speechRate: 0.8 | 1
+  sound: boolean
 }
 
 const KEY = 'maeifo-banu:settings'
-const DEFAULTS: Settings = { textSize: 1, autoSpeak: false, speechRate: 1 }
+const DEFAULTS: Settings = { textSize: 1, autoSpeak: false, speechRate: 1, sound: true }
 
 function load(): Settings {
   try {
