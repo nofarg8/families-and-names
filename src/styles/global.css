@@ -200,6 +200,10 @@ textarea {
   cursor: pointer;
 }
 
+.btn[aria-busy='true'] {
+  cursor: progress;
+}
+
 .btn-primary {
   background: var(--c-rimon);
   color: #fff;
