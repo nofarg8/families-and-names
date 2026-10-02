@@ -29,6 +29,9 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}'],
         navigateFallback: '/index.html',
+        // Take over right away (also from older installs); the page itself reloads only on the home screen.
+        skipWaiting: true,
+        clientsClaim: true,
       },
     }),
   ],

@@ -11,11 +11,14 @@ import { App } from './App'
 import { SettingsProvider } from './hooks/useSettings'
 import { setUpdateReady } from './update'
 
-const updateSW = registerSW({
+// A new version has taken over: show it next time we're on the home screen.
+const hadController = !!navigator.serviceWorker?.controller
+navigator.serviceWorker?.addEventListener('controllerchange', () => {
+  if (hadController) setUpdateReady(() => window.location.reload())
+})
+
+registerSW({
   immediate: true,
-  onNeedRefresh() {
-    setUpdateReady(() => void updateSW(true))
-  },
   onRegisteredSW(_url, registration) {
     if (!registration) return
     const check = () => registration.update().catch(() => {})
