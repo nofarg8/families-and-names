@@ -28,10 +28,12 @@ export type Community = {
   verified: boolean
 }
 
-export type StoryQuestion = { id: string; text: string }
+/** retired: no longer asked (doesn't fit the user), but old answers still show in the family book. */
+export type StoryQuestion = { id: string; text: string; retired?: boolean }
 
 export const surnames: Surname[] = surnamesJson
 export const communities: Community[] = communitiesJson
-export const storyQuestions: StoryQuestion[] = questionsJson
+export const allStoryQuestions: StoryQuestion[] = questionsJson
+export const storyQuestions = allStoryQuestions.filter((q) => !q.retired)
 
 export const communityById = (id: string) => communities.find((c) => c.id === id)!

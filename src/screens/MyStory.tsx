@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { ActionBar } from '../components/ActionBar'
 import { BigButton } from '../components/BigButton'
-import { storyQuestions, type StoryQuestion } from '../data/types'
+import { allStoryQuestions, storyQuestions, type StoryQuestion } from '../data/types'
 import { useScreenText } from '../hooks/useSpeech'
 import { useStoryAnswers, type StoryAnswer } from '../hooks/useStore'
 import { t } from '../i18n'
@@ -25,7 +25,7 @@ function drawSession(answers: Record<string, StoryAnswer>): string[] {
   return [...open, ...answered].slice(0, PER_SESSION).map((q) => q.id)
 }
 
-const byId = (id: string | null) => storyQuestions.find((q) => q.id === id)
+const byId = (id: string | null) => allStoryQuestions.find((q) => q.id === id)
 
 /*
  * URLs:
@@ -41,7 +41,7 @@ export function MyStory() {
 
   if (!loaded) return <main className="screen" />
 
-  const answeredCount = Object.keys(answers).length
+  const answeredCount = storyQuestions.filter((q) => answers[q.id]).length
   const startSession = () => navigate(`/story?s=${drawSession(answers).join(',')}&i=0`)
 
   const save = async (question: StoryQuestion, text: string) => {

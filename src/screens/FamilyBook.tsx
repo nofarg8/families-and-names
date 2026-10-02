@@ -4,7 +4,7 @@ import { ActionBar } from '../components/ActionBar'
 import { BigButton } from '../components/BigButton'
 import { Card } from '../components/Card'
 import { Status } from '../components/Status'
-import { storyQuestions } from '../data/types'
+import { allStoryQuestions } from '../data/types'
 import { useSettings } from '../hooks/useSettings'
 import { useScreenText } from '../hooks/useSpeech'
 import { useStoryAnswers } from '../hooks/useStore'
@@ -24,7 +24,7 @@ export function FamilyBook() {
   const [status, setStatus] = useState('')
   const [pdf, setPdf] = useState<PdfState>({ state: 'idle' })
 
-  const entries = storyQuestions
+  const entries = allStoryQuestions
     .map((q) => ({ q, a: answers[q.id] }))
     .filter((e) => e.a)
 
