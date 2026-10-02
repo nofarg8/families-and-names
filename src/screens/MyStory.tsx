@@ -2,52 +2,96 @@ import { useEffect, useRef, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { ActionBar } from '../components/ActionBar'
 import { BigButton } from '../components/BigButton'
-import { storyQuestions } from '../data/types'
+import { storyQuestions, type StoryQuestion } from '../data/types'
 import { useScreenText } from '../hooks/useSpeech'
 import { useStoryAnswers, type StoryAnswer } from '../hooks/useStore'
 import { t } from '../i18n'
 
+const PER_SESSION = 3
+
+function shuffle<T>(items: T[]): T[] {
+  const a = [...items]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+/** Three random questions, unanswered ones first; answered ones refill once all are done. */
+function drawSession(answers: Record<string, StoryAnswer>): string[] {
+  const open = shuffle(storyQuestions.filter((q) => !answers[q.id]))
+  const answered = shuffle(storyQuestions.filter((q) => answers[q.id]))
+  return [...open, ...answered].slice(0, PER_SESSION).map((q) => q.id)
+}
+
+const byId = (id: string | null) => storyQuestions.find((q) => q.id === id)
+
+/*
+ * URLs:
+ *   /story                     intro
+ *   /story?s=q4,q17,q22&i=0    a session of three questions
+ *   /story?s=...&done=1        end of session
+ *   /story?q=q4&edit=1         edit one answer from the family book
+ */
 export function MyStory() {
   const [params] = useSearchParams()
   const navigate = useNavigate()
   const [answers, saveAnswers, loaded] = useStoryAnswers()
-  const q = params.get('q')
-  const editing = params.get('edit') === '1'
-  const index = q === null ? -1 : Math.min(Math.max(Number(q) || 0, 0), storyQuestions.length - 1)
 
   if (!loaded) return <main className="screen" />
 
-  if (index < 0) {
-    const answeredCount = Object.keys(answers).length
-    const firstOpen = storyQuestions.findIndex((sq) => !answers[sq.id])
+  const answeredCount = Object.keys(answers).length
+  const startSession = () => navigate(`/story?s=${drawSession(answers).join(',')}&i=0`)
+
+  const save = async (question: StoryQuestion, text: string) => {
+    if (!text) return
+    await saveAnswers((all) => ({
+      ...all,
+      [question.id]: { questionId: question.id, text, updatedAt: new Date().toISOString() },
+    }))
+  }
+
+  const editQuestion = byId(params.get('q'))
+  if (editQuestion && params.get('edit') === '1') {
+    const back = () => navigate('/book', { replace: true })
     return (
-      <Intro
-        hasAnswers={answeredCount > 0}
-        onStart={() => navigate(`/story?q=${answeredCount > 0 && firstOpen >= 0 ? firstOpen : 0}`)}
-        onBook={() => navigate('/book')}
+      <QuestionStep
+        key={editQuestion.id}
+        question={editQuestion}
+        existing={answers[editQuestion.id]}
+        onSave={async (text) => {
+          await save(editQuestion, text)
+          back()
+        }}
+        onSkip={back}
       />
     )
   }
 
-  const question = storyQuestions[index]
-  const goNext = () => {
-    if (editing) navigate('/book', { replace: true })
-    else if (index < storyQuestions.length - 1) navigate(`/story?q=${index + 1}`)
-    else navigate('/book')
+  const session = (params.get('s') ?? '').split(',').map(byId).filter((q): q is StoryQuestion => !!q)
+  if (!session.length) {
+    return <Intro answeredCount={answeredCount} onStart={startSession} onBook={() => navigate('/book')} />
   }
+
+  if (params.get('done') === '1') {
+    return <Done answeredCount={answeredCount} onAgain={startSession} onBook={() => navigate('/book')} />
+  }
+
+  const index = Math.min(Math.max(Number(params.get('i')) || 0, 0), session.length - 1)
+  const question = session[index]
+  const sessionParam = session.map((q) => q.id).join(',')
+  const goNext = () =>
+    navigate(index < session.length - 1 ? `/story?s=${sessionParam}&i=${index + 1}` : `/story?s=${sessionParam}&done=1`)
 
   return (
     <QuestionStep
       key={question.id}
-      index={index}
+      question={question}
+      progress={t('story.progress', { n: index + 1, total: session.length })}
       existing={answers[question.id]}
       onSave={async (text) => {
-        if (text) {
-          await saveAnswers((all) => ({
-            ...all,
-            [question.id]: { questionId: question.id, text, updatedAt: new Date().toISOString() },
-          }))
-        }
+        await save(question, text)
         goNext()
       }}
       onSkip={goNext}
@@ -55,19 +99,21 @@ export function MyStory() {
   )
 }
 
-function Intro({ hasAnswers, onStart, onBook }: { hasAnswers: boolean; onStart: () => void; onBook: () => void }) {
-  useScreenText([t('story.intro.title'), t('story.intro.body')].join('. '))
+function Intro({ answeredCount, onStart, onBook }: { answeredCount: number; onStart: () => void; onBook: () => void }) {
+  const count = answeredCount > 0 ? t('story.intro.count', { n: answeredCount, total: storyQuestions.length }) : ''
+  useScreenText([t('story.intro.title'), t('story.intro.body'), count].filter(Boolean).join('. '))
   return (
     <main className="screen">
       <div className="home-header">
         <h1>{t('story.intro.title')}</h1>
         <p>{t('story.intro.body')}</p>
+        {count && <p className="muted">{count}</p>}
       </div>
       <ActionBar>
         <BigButton icon="story" onClick={onStart}>
-          {hasAnswers ? t('story.intro.continue') : t('story.intro.start')}
+          {t('story.intro.start')}
         </BigButton>
-        {hasAnswers && (
+        {answeredCount > 0 && (
           <BigButton variant="secondary" icon="book" onClick={onBook}>
             {t('story.toBook')}
           </BigButton>
@@ -77,18 +123,48 @@ function Intro({ hasAnswers, onStart, onBook }: { hasAnswers: boolean; onStart: 
   )
 }
 
+function Done({ answeredCount, onAgain, onBook }: { answeredCount: number; onAgain: () => void; onBook: () => void }) {
+  const body = t('story.done.body', { n: answeredCount, total: storyQuestions.length })
+  const headingRef = useRef<HTMLHeadingElement>(null)
+  useEffect(() => {
+    window.scrollTo(0, 0)
+    headingRef.current?.focus()
+  }, [])
+  useScreenText([t('story.done.title'), body].join('. '))
+  return (
+    <main className="screen">
+      <div className="home-header">
+        <div className="ornament" aria-hidden="true" />
+        <h1 ref={headingRef} tabIndex={-1}>
+          {t('story.done.title')}
+        </h1>
+        <p>{body}</p>
+      </div>
+      <ActionBar>
+        <BigButton icon="book" onClick={onBook}>
+          {t('story.toBook')}
+        </BigButton>
+        <BigButton variant="secondary" icon="again" onClick={onAgain}>
+          {t('story.done.again')}
+        </BigButton>
+      </ActionBar>
+    </main>
+  )
+}
+
 function QuestionStep({
-  index,
+  question,
+  progress,
   existing,
   onSave,
   onSkip,
 }: {
-  index: number
+  question: StoryQuestion
+  progress?: string
   existing?: StoryAnswer
   onSave: (text: string) => void
   onSkip: () => void
 }) {
-  const question = storyQuestions[index]
   const [text, setText] = useState(existing?.text ?? '')
   const headingRef = useRef<HTMLHeadingElement>(null)
 
@@ -101,7 +177,7 @@ function QuestionStep({
 
   return (
     <main className="screen">
-      <p className="progress">{t('story.progress', { n: index + 1, total: storyQuestions.length })}</p>
+      {progress && <p className="progress">{progress}</p>}
       <h1 ref={headingRef} tabIndex={-1} className="question-text">
         {question.text}
       </h1>

@@ -25,7 +25,7 @@ export function FamilyBook() {
   const [pdf, setPdf] = useState<PdfState>({ state: 'idle' })
 
   const entries = storyQuestions
-    .map((q, index) => ({ q, index, a: answers[q.id] }))
+    .map((q) => ({ q, a: answers[q.id] }))
     .filter((e) => e.a)
 
   const title = settings.userName?.trim() ? `${t('book.title')}: ${settings.userName.trim()}` : t('book.title')
@@ -119,7 +119,7 @@ export function FamilyBook() {
         </>
       ) : (
         <>
-          {entries.map(({ q, index, a }) => (
+          {entries.map(({ q, a }) => (
             <Card key={q.id} className="book-entry">
               <h2 className="question-text">{q.text}</h2>
               <p className="answer">{a.text}</p>
@@ -138,7 +138,7 @@ export function FamilyBook() {
                 </div>
               ) : (
                 <div className="inline-actions">
-                  <BigButton variant="secondary" icon="edit" onClick={() => navigate(`/story?q=${index}&edit=1`)}>
+                  <BigButton variant="secondary" icon="edit" onClick={() => navigate(`/story?q=${q.id}&edit=1`)}>
                     {t('book.edit')}
                   </BigButton>
                   <BigButton
